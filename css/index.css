@@ -1,0 +1,41 @@
+/* CSS Variables */
+:root {
+  --white: #fff;
+  --accent-blue: #965cf2;
+  --accent-purple: #ff8adc;
+}
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-div {
+  /* margin: 30px 30px 0 30px; */
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.signin-btn {
+  border: 0;
+  padding: 5px 14px;
+  border-radius: 12px;
+  color: var(--white);
+  background: linear-gradient(to right, var(--accent-blue) 0%, var(--accent-purple) 100%);
+}
+
