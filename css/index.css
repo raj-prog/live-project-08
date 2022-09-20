@@ -87,74 +87,9 @@ nav {
 }
 
 /* Responsive */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-  .imgs-div>img:nth-of-type(3) {
-      width: 500px;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  body {
-    background-image: url("../images/backcover.svg");
-    background-position: top right;
-    background-size: 600px;
-  }
-
-  .nav-items,
-  .signin-btn {
-    display: none;
-  }
-
-  .nav-bars {
-    display: block;
-    font-size: 20px;
-  }
-
-  .imgs-div>img:nth-of-type(3) {
-    width: 300px;
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  body {
-      background-image: url("../images/backcover.svg");
-      background-position: top right;
-      background-size: 450px;
-    }
-  
-    .nav-items,
-    .signin-btn {
-      display: none;
-    }
-  
-    .nav-bars {
-      display: block;
-      font-size: 20px;
-    }
-
-    .left-section h1 {
-      font-size: 40px;
-    }
-
-    .imgs-div {
-      position: relative;
-    }
-
-    .vector-dot,
-    .vector-img {
-      display: none;
-    }
-  
-    .imgs-div>img:nth-of-type(3) {
-      width: 200px;
-      position: absolute;
-      top: 0;
-      right: 0;
-    }
-}
-
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .vector-dot, .vector-img {
+  .vector-dot,
+  .vector-img {
     display: none;
   }
 
@@ -179,3 +114,68 @@ nav {
   }
 }
 
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-image: url("../images/backcover.svg");
+    background-position: top right;
+    background-size: 450px;
+  }
+
+  .nav-items,
+  .signin-btn {
+    display: none;
+  }
+
+  .nav-bars {
+    display: block;
+    font-size: 20px;
+  }
+
+  .left-section h1 {
+    font-size: 40px;
+  }
+
+  .imgs-div {
+    position: relative;
+  }
+
+  .vector-dot,
+  .vector-img {
+    display: none;
+  }
+
+  .imgs-div>img:nth-of-type(3) {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-image: url("../images/backcover.svg");
+    background-position: top right;
+    background-size: 600px;
+  }
+
+  .nav-items,
+  .signin-btn {
+    display: none;
+  }
+
+  .nav-bars {
+    display: block;
+    font-size: 20px;
+  }
+
+  .imgs-div>img:nth-of-type(3) {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .imgs-div>img:nth-of-type(3) {
+    width: 500px;
+  }
+}
