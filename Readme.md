@@ -7,7 +7,7 @@
 - Linear gradient
 - Responsiveness on all screens
 
-## Time required to complete: 2h
+## Time required to complete: 4.5h
 
 ### Project Screenshot
 
