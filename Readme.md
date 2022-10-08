@@ -1,11 +1,11 @@
 # Raju A (R.C)
 
-## Project 8
+## Project 8 [Live Demo](https://live-proj-08.netlify.app/)
 
 ## Topics learned in this project:
 
-- Linear gradient
-- Responsiveness on all screens
+- **_Linear gradient_**
+- **_Responsiveness on all screens_**
 
 ## Time required to complete: 4.5h
 

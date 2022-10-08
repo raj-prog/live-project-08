@@ -3,7 +3,7 @@
   --white: #fff;
   --accent-blue: #965cf2;
   --accent-purple: #ff8adc;
-  --accent-blue-light: #3E4794;
+  --accent-blue-light: #3e4794;
 }
 
 /* Reset */
@@ -14,8 +14,8 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background: url("../images/backcover.svg") no-repeat;
+  font-family: 'Roboto', sans-serif;
+  background: url('../images/backcover.svg') no-repeat;
   background-position: top right;
 }
 
@@ -43,7 +43,11 @@ nav {
   padding: 5px 14px;
   border-radius: 12px;
   color: var(--white);
-  background: linear-gradient(to right, var(--accent-blue) 0%, var(--accent-purple) 100%);
+  background: linear-gradient(
+    to right,
+    var(--accent-blue) 0%,
+    var(--accent-purple) 100%
+  );
 }
 
 .nav-bars {
@@ -72,7 +76,11 @@ nav {
 .learn-more-btn {
   border: 0;
   font-size: 20px;
-  background: linear-gradient(to right, var(--accent-blue) 0%, var(--accent-purple) 100%);
+  background: linear-gradient(
+    to right,
+    var(--accent-blue) 0%,
+    var(--accent-purple) 100%
+  );
   padding: 15px 30px;
   color: var(--white);
   border-radius: 25px;
@@ -83,7 +91,7 @@ nav {
 }
 
 .vector-dot {
- position: absolute;
+  position: absolute;
 }
 
 /* Responsive */
@@ -93,7 +101,7 @@ nav {
     display: none;
   }
 
-  .imgs-div>img:nth-of-type(3) {
+  .imgs-div > img:nth-of-type(3) {
     display: none;
   }
 
@@ -108,7 +116,7 @@ nav {
   }
 
   body {
-    background-image: url("../images/backcover.svg");
+    background-image: url('../images/backcover.svg');
     background-position: top right;
     background-size: 450px;
   }
@@ -116,7 +124,7 @@ nav {
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   body {
-    background-image: url("../images/backcover.svg");
+    background-image: url('../images/backcover.svg');
     background-position: top right;
     background-size: 450px;
   }
@@ -144,7 +152,7 @@ nav {
     display: none;
   }
 
-  .imgs-div>img:nth-of-type(3) {
+  .imgs-div > img:nth-of-type(3) {
     width: 200px;
     position: absolute;
     top: 0;
@@ -154,7 +162,7 @@ nav {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   body {
-    background-image: url("../images/backcover.svg");
+    background-image: url('../images/backcover.svg');
     background-position: top right;
     background-size: 600px;
   }
@@ -169,13 +177,13 @@ nav {
     font-size: 20px;
   }
 
-  .imgs-div>img:nth-of-type(3) {
+  .imgs-div > img:nth-of-type(3) {
     width: 300px;
   }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-  .imgs-div>img:nth-of-type(3) {
+  .imgs-div > img:nth-of-type(3) {
     width: 500px;
   }
 }
